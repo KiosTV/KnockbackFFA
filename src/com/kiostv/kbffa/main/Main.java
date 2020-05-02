@@ -12,6 +12,11 @@ public class Main extends JavaPlugin {
     public void onEnable(){
         FileUtils.setupFiles();
         GamesFileUtils.setupFiles();
+
+        if(!FileUtils.cfg.getString("Settings.MapName").equalsIgnoreCase("NONE")){
+            //TODO Setup
+        }
+
         Utils.sendConsole("Plugin started!");
         //TODO Plugin Start-logic
     }

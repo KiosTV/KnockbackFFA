@@ -36,6 +36,7 @@ public class FileUtils {
             }
         }
         cfg.addDefault("Messages.Prefix", "&8&b[Knock-Back FFA] &7");
+        cfg.addDefault("Settings.MapName", "NONE");
         cfg.options().copyDefaults(true);
         saveFiles();
     }

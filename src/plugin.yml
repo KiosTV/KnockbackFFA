@@ -1,0 +1,9 @@
+main: com.kiostv.kbffa.main
+name: KnockBackFFA
+version: 1.8.8-1.0
+load: POSTWORLD
+authors: [KiosTV,TimeToLucky]
+website: https://github.com/KiosTV/KnockbackFFA
+
+commands:
+  #TODO create Commands

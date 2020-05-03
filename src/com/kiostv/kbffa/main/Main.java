@@ -15,13 +15,13 @@ public class Main extends JavaPlugin {
         GameFileUtils.setupFiles();
 
         if(!FileUtils.cfg.getString("Settings.MapName").equalsIgnoreCase("NONE")){
-            //TODO Setup
+            //TODO: Setup
         }
 
         registerCommands();
 
         Utils.sendConsole("Plugin started!");
-        //TODO Plugin Start-logic
+        //TODO: Plugin Start-logic
     }
 
 
@@ -29,7 +29,9 @@ public class Main extends JavaPlugin {
     @Override
     public void onDisable(){
         Utils.sendConsole("Plugin started!");
-        //TODO Plugin Stop-logic
+        //TODO: Plugin Stop-logic
+        GameFileUtils.saveFiles();
+        FileUtils.saveFiles();
     }
 
     private void registerCommands() {

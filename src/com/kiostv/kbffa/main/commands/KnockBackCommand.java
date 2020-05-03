@@ -62,6 +62,7 @@ public class KnockBackCommand implements CommandExecutor {
                         else
                          {
                             sendHelp(p);
+                            
                         }
                     }
                     else{
